@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type"text/css" href="f.css">
+	<link rel="icon" type="image/png" sizes="32x32" href="F:\favicons\favicon-32x32.PNG">
+</head>
+<body bgcolor="#2EFEC8">
+	<center><h2>bienvenido</h2></center>
+	<div class="form">
+		<form action="guardar.php" method="POST">
+			<center><p>Registro</p></center>
+			<label for="Nombre">Nombre</label>
+			<br>
+			<input type="text" name="Nombre" placeholder="Nombre" required>
+			<p>correo</p>
+			<label for="correo"> direccion de correo </label>
+			<br>
+			<input type="email" name="correo" placeholder="alguien@algo.com" required>
+			<p>contraseña</p>
+			<label for="contra"> incgresa tu contraseña</label>
+			<br>
+			<input type="text" name="contra" placeholder="*********************" required>
+			<p>repite tu contraseña contraseña</p>
+			<label for="contras"> incgresa tu contraseña</label>
+			<br>
+			<input type="text" name="contras" placeholder="*********************" required>
+			<br>
+			<br>
+			<br>
+			<br>
+			<p>mensaje</p>
+			<label for="mensaje"> Su mensaje </label>
+			<br>
+			<textarea  name="mensaje" placeholder="Mensaje" required></textarea>
+			<br>
+			<br>
+			<input type="submit" value="REGISTRAR">
+			
+
+		</form>
+	</div>
+	
+
+</body>
+</html>
