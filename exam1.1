@@ -1,0 +1,26 @@
+3. Arquitectura orientada a servicios 
+Introducción 
+
+La arquitectura orientada a servicios (SOA) es un estándar del sector de definición abierta que presenta todos los procesos de negocio de un modo orientado a servicios. Las dependencias entre servicios, tales como servicios web, activos de servicio EIS (Enterprise Information System), flujos de trabajo y bases de datos se minimizan y se oculta la implementación de cualquier servicio. 
+
+Antecedentes 
+
+Arquitectura orientada a el servicio(SOA). Es la primera arquitectura de Tecnologías de Información (TI) que asume lo que los negocios han sabido desde hace mucho tiempo. Se trata esencialmente de un set de servicios sueltos, donde cada uno es relativamente económico para construirlo o reemplazarlo si es necesario. 
+
+Desarrollo 
+
+La arquitectura orientada a servicios es separar la lógica de integración de negocio de la implementación, para que el desarrollador de integración pueda centrarse en ensamblar una aplicación integrada en lugar de hacerlo en los detalles de la implementación. Para lograrlo, se crean componentes de servicio que contienen la implementación de servicios individuales necesarios para los procesos de negocio. El resultado es una arquitectura de tres capas: lógica de integración de negocio, componentes de servicio e imple  mentación, como se muestra en el diagrama siguiente: 
+
+Dado que los componentes de servicio contienen la implementación, el desarrollador de integración puede ensamblarlos gráficamente sin necesidad de conocer los detalles de la implementación. Los componentes de servicio también ofrecen la opción de dejar que el desarrollador de integración o alguien que trabaje con él añada la implementación más tarde. Los componentes se ensamblan entre sí de forma visual. Es decir, el código de los componentes no se expone al usuario. En el nivel de lógica de negocio que se muestra en el diagrama siguiente, los componentes se ensamblan independientemente de su implementación. A continuación, la arquitectura orientada a servicios permite centrarse en resolver los problemas de negocio mediante la utilización y reutilización de componentes, en lugar de distraer la atención hacia la tecnología que implementa los servicios que se están utilizando. 
+
+Conclusión 
+
+Los microservicios se derivan de SOA, pero SOA no es lo mismo que la arquitectura de microservicios. Características como los grandes agentes centrales, los orquestadores centrales en el nivel de organización y el Bus de servicio empresarial (ESB) son habituales en SOA. Pero en la mayoría de los casos son antipatrones en la comunidad de microservicios. De hecho, hay quien argumenta que "la arquitectura de microservicios es SOA bien hecho". 
+
+Bibliografía 
+
+https://www.ibm.com/support/knowledgecenter/es/SS8JB4/com.ibm.wbpm.wid.main.doc/prodoverview/topics/csoa.html 
+
+https://www.ecured.cu/Arquitectura_Orientada_a_Servicios_(SOA) 
+
+https://docs.microsoft.com/es-es/dotnet/architecture/microservices/architect-microservice-container-applications/service-oriented-architecture 
